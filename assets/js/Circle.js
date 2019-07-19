@@ -10,7 +10,7 @@ class Circle {
     generateParams() {
         this.radius = Math.random() * 50 + 1;
 
-        const speed = Math.random() * 30 / this.radius;
+        const speed = Math.random() * 80 / this.radius;
         const xDirection = Math.random() < 0.5 ? -speed : speed;
         const yDirection = Math.random() < 0.5 ? -speed : speed;
 
